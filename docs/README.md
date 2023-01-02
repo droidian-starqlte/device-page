@@ -2,7 +2,7 @@
 
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
+| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✖️  	|
 | No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
 | Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
@@ -31,14 +31,14 @@
 
 ## Files
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
-- Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-lavender/adaptation-droidian-lavender/releases/download/adaptation/adaptation-droidian-lavender.zip).
+- Download the adaptation package: [adaptation-droidian-lavender.zip](https://github.com/droidian-lavender/adaptation-droidian-lavender/releases/download/adaptation/adaptation-droidian-lavender.zip).
 
 ## Installation
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
 - Go into sideload mode and sideload adaptation-droidian-garden.zip: `adb sideload adaptation-droidian-lavender.zip`
-- Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip`
+- Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api28-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api28-arm64-nightly_XXXXXXXX.zip`
 
 - Now boot into your device.
 - *The first boot will take a while.*

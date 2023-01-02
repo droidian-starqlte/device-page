@@ -33,7 +33,7 @@
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-lavender/adaptation-droidian-lavender/releases/download/adaptation/adaptation-droidian-lavender.zip).
 
-## Karna installation
+## Installation
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.

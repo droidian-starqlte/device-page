@@ -3,8 +3,8 @@
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✖️  	|
-| No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
-| Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
+| No reboot needed for 1 week      	|  ✅	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
+| Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	| ✖️ ✖️  	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
 | Photo                         	|  ✅	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
@@ -37,11 +37,14 @@
 * run the `flash_all` script
 * Boot to fastboot and let the script flash everything.
 
+## UBports Installer
+- Alternatively the UBports installer can also be used to install Droidian.
+
 ## Notes
 - The default password is `1234`.
-- **Droidian GSIs are experimental! Bugs and missing features are expected.**
 
 ## Bugs
+- Encryption is broken and it will soft brick the device.
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.

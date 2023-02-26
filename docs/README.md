@@ -2,14 +2,14 @@
 
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✖️  	|
+| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅  	|
 | No reboot needed for 1 week      	|  ✅	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
 | Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	| ✖️ ✖️  	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
-| Photo                         	|  ✅	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	|  ✅	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
-| Switching between cameras     	|  ✅	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
+| Photo                         	| ✖️ ✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
+| Video                         	| ✖️ ✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Switching between cameras     	|  ✅	| Offline charging                 	|  ❔	| Loudspeaker          	|  ✅	|
 | Dual SIM functionality        	| ✖️ ✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
@@ -26,11 +26,10 @@
 - **✖️✖️** *Global issue.*
 
 ## Requirements
-- Android 10 firmware for your device:
-  - Redmi Note 7: https://xiaomifirmwareupdater.com/miui/lavender/stable/V11.0.6.0.PFGMIXM/
+- Android 10
 
 ## Files
-- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-xiaomi_lavender-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-lavender/droidian-images/releases/tag/nightly).
+- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-samsung_starqlte-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-starqlte/droidian-images/releases/tag/nightly).
 
 ## Installation
 * Extract the archive

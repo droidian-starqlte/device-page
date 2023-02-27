@@ -31,7 +31,7 @@
 ## Files
 - Download the latest api29 image: [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation package (works for both starqlte and starq2lte): [adaptation-droidian-starqlte.zip](https://github.com/droidian-starqlte/adaptation-droidian-starqlte/releases/tag/adaptation)
-- Download this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/star2qlte) for starqlte or this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/starqlte) for star2qlte.
+- Download this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/starqlte) for starqlte or this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/star2qlte) for star2qlte.
 
 ## Installation
 * Boot to your favorite recovery and flash `droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip` then flash `adaptation-droidian-starqlte.zip`.

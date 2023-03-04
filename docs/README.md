@@ -7,8 +7,8 @@
 | Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	| ✖️ ✖️  	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
-| Photo                         	| ✖️ ✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	| ✖️ ✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Photo                         	| ✅✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
+| Video                         	| ✅✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
 | Switching between cameras     	|  ✅	| Offline charging                 	|  ❔	| Loudspeaker          	|  ✅	|
 | Dual SIM functionality        	| ✖️ ✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
@@ -46,6 +46,7 @@
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
+- Camera works in WayDroid only.
 
 ## Final notes
 - I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.

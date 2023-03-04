@@ -29,19 +29,20 @@
 - Android 10
 
 ## Files
-- Download the latest api29 image: [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
-- Download the adaptation package (works for both starqlte and starq2lte): [adaptation-droidian-starqlte.zip](https://github.com/droidian-starqlte/adaptation-droidian-starqlte/releases/tag/adaptation)
-- Download this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/starqlte) for starqlte or this [boot.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/tag/star2qlte) for star2qlte.
+- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-samsung_starqlte-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-starqlte/droidian-images/releases/tag/nightly).
 
 ## Installation
-* Boot to your favorite recovery and flash `droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip` then flash `adaptation-droidian-starqlte.zip`.
-* Reboot to system. Now just let the device boot up. It will reboot once to complete the installation (will stay at the samsung logo don't touch any buttons especially the power button as that will reboot the system during the boot process)
+* Extract the archive
+* flash this [recovery.img](https://github.com/droidian-starqlte/android_kernel_samsung_sdm845/releases/download/starqlte/recovery.img)
+* Boot to TWRP and in the reboot section boot to fastboot
+* run the `flash_all` script
 
 ## Notes
 - The default password is `1234`.
 - In Settings->power->Automatic Suspend can be disabled as it's broken on Droidian anyways and it uses my own battery management solution.
 
 ## Bugs
+- Encryption works but will make the device very slow so it is recommended to not be enabled for now.
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
